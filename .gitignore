@@ -118,5 +118,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+**/.DS_Store
 
-# End of https://www.gitignore.io/api/django
+# Django Boot specific ignores
+temp/*
+!temp/.keep
+
+static/*
+!static/.keep
+
